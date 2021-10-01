@@ -44,7 +44,15 @@ const App = () => (
 					level={5}
 					style={{ color: 'white', textAlign: 'center' }}
 				>
-					Copyright © 2021 | <Link to="/">CryptoIdeas Inc.</Link> <br />
+					Copyright © 2021 |{' '}
+					<a
+						href="https://github.com/Gurveen-codes"
+						target="_blank"
+						rel="noreferrer"
+					>
+						CryptoIdeas
+					</a>{' '}
+					<br />
 					All Rights Reserved.
 				</Typography.Title>
 				<Space>
