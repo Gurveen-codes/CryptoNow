@@ -150,8 +150,8 @@ const CryptoDetails = () => {
 							Other Stats Info
 						</Title>
 						<p>
-							An overview showing the statistics of {cryptoDetails.name}, such
-							as the base and quote currency, the rank, and trading volume.
+							An overview showing the statistics of other cryptocurrencies, such
+							as total markets and market volume.
 						</p>
 					</Col>
 					{genericStats.map(({ icon, title, value }) => (
