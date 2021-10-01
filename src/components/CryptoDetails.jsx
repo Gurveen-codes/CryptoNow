@@ -33,7 +33,7 @@ const CryptoDetails = () => {
 
 	const cryptoDetails = data?.data?.coin
 
-	const time = ['3h', '24h', '7d', '30d', '1y', '3y', '5y']
+	const time = ['24h', '7d', '30d', '1y', '5y']
 	let stats = []
 	let genericStats = []
 	if (!isFetching) {
