@@ -50,7 +50,7 @@ const App = () => (
 						target="_blank"
 						rel="noreferrer"
 					>
-						CryptoIdeas
+						CryptoNow
 					</a>{' '}
 					<br />
 					All Rights Reserved.
