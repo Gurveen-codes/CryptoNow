@@ -289,8 +289,14 @@ a:hover {
 .select-news {
 	width: 180px;
 }
+
+.select-news-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .news-card {
-	min-height: 300px !important;
+	min-height: 275px !important;
 }
 .news-image-container {
 	display: flex !important;
