@@ -350,15 +350,22 @@ a:hover {
 .exchange-image {
 	margin: 0px 10px !important;
 }
+
+.search-crypto-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
 .search-crypto {
-	margin: 20px auto 30px auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	width: 250px;
 }
 .crypto-card-container {
 	min-height: 65vh !important;
 }
 .crypto-card {
-	min-width: 250px;
+	min-width: 240px;
 }
 .crypto-card .crypto-image {
 	width: 35px;
