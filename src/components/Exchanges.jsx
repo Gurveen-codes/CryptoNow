@@ -6,7 +6,7 @@ import HTMLReactParser from 'html-react-parser'
 import { useGetExchangesQuery } from '../services/cryptoApi'
 import Loader from './Loader'
 
-const { Text } = Typography
+const { Text, Title } = Typography
 const { Panel } = Collapse
 
 const Exchanges = () => {
@@ -17,7 +17,8 @@ const Exchanges = () => {
 
 	return (
 		<>
-			<Row>
+			<Title level={2}>Top Exchanges</Title>
+			<Row className="exchanges-label">
 				<Col span={9}>Exchanges</Col>
 				<Col span={5}>24h Trade Volume</Col>
 				<Col span={5}>Markets</Col>

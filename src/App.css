@@ -353,6 +353,10 @@ a:hover {
 .show-more {
 	margin-top: 0px !important;
 }
+
+.exchanges-label {
+	font-weight: bold;
+}
 .exchange-image {
 	margin: 0px 10px !important;
 }
